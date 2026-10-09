@@ -24,8 +24,8 @@ the Vocal Lift card come from LSP Plugins version 1.2.35 by the Linux Studio
 Plugins Project, built unmodified for Windows 64-bit into `lsp-plugins.dll`
 (only the list of plug-ins to build was shortened). LSP Plugins is licensed
 under the GNU Lesser General Public License version 3 (LGPLv3). The complete
-source code and licence texts are in this repository's `LSP-Plugins` folder
-and are also installed with SpiritFone. SpiritFone loads `lsp-plugins.dll` from
+source code is in this repository's `LSP-Plugins` folder; the licence texts
+and the build file are also installed with SpiritFone. SpiritFone loads `lsp-plugins.dll` from
 its own folder, and you may replace it with your own build that provides the
 same two plug-ins. https://lsp-plug.in/ , https://github.com/lsp-plugins/
 
