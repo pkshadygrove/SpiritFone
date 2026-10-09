@@ -1,0 +1,28 @@
+LSP Plugins -- notice
+=====================
+
+SpiritFone's Vocal Lift card can use two processors from the LSP Plugins
+collection (Linux Studio Plugins Project): the Multiband Expander and the
+Multiband Compressor. They are in the file lsp-plugins.dll, which is
+installed in the same folder as SpiritFone.exe. This is LSP Plugins version
+1.2.35, built from the unmodified source code for Windows 64-bit. Only the
+list of plug-ins to build was shortened (see plugins.mk.SpiritFone-build).
+
+LSP Plugins and the use of it in SpiritFone are covered by the GNU Lesser
+General Public License version 3 (LGPLv3). Copies of that licence and of the
+GNU General Public License version 3 that it refers to are in this folder:
+
+  COPYING.LESSER.txt   GNU Lesser General Public License, version 3
+  COPYING.txt          GNU General Public License, version 3
+
+The complete source code of the LSP Plugins version that lsp-plugins.dll was
+built from is in this folder as lsp-plugins-src-1.2.35.tar.gz. The one file
+that differs from it is plugins.mk, which lists the plug-ins to build; the
+version used is plugins.mk.SpiritFone-build. The project's website is
+https://lsp-plug.in/ and its code is at https://github.com/lsp-plugins/
+
+SpiritFone loads lsp-plugins.dll from its own folder at run time. You may
+replace that file with your own build of LSP Plugins that provides the
+same two plug-ins.
+
+All names and trademarks belong to their owners.
