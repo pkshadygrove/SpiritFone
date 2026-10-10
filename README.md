@@ -10,7 +10,7 @@ charge and will remain so.
 | The SpiritFone Windows installer | the **Releases** page (right-hand side of this page) |
 | Complete source code of the LSP Plugins version used by SpiritFone | `LSP-Plugins/lsp-plugins-src-1.2.35.tar.gz` |
 | The one build file that differs from that source | `LSP-Plugins/plugins.mk.SpiritFone-build` |
-| Licence texts and notice | `LSP-Plugins/COPYING.LESSER.txt`, `LSP-Plugins/COPYING.txt`, `LSP-Plugins/NOTICE.txt`, `DeepFilterNet/LICENSE-MIT` |
+| Licence texts and notice | `LSP-Plugins/COPYING.LESSER.txt`, `LSP-Plugins/COPYING.txt`, `LSP-Plugins/NOTICE.txt`, `DeepFilterNet/LICENSE-MIT.txt` |
 
 The source code of SpiritFone itself is not in this repository.
 
