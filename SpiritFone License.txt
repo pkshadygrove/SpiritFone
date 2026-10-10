@@ -1,0 +1,63 @@
+SPIRITFONE LICENSE
+
+Copyright (c) 2026 Paul Kelly.
+
+
+1. Free, for personal use only.
+
+You may install SpiritFone on your own computers and use it for personal,
+non-commercial purposes, at no charge. You may not use it for commercial
+purposes, for example in a business or a paid service. Nobody may sell
+SpiritFone, or charge money for it or for access to it.
+
+
+2. No passing it on.
+
+SpiritFone is available only from its official source,
+https://github.com/pkshadygrove/SpiritFone
+Please do not copy, share, post or upload the installer or its files for other
+people; send them to the official source instead.
+
+
+3. SpiritFone's own files.
+
+You may not modify SpiritFone's program files, or take them apart to study
+them, except as the law allows and as the licenses of the third-party software
+in clause 4 allow for that software. The source code of SpiritFone itself is
+not published.
+
+
+4. Third-party software is not covered by this license.
+
+SpiritFone includes or works with software made by other people. That software
+belongs to its owners and stays under its own existing terms and conditions,
+not this license:
+
+  - LSP Plugins (the Multiband Expander and Compressor): GNU Lesser General
+    Public License version 3. The license texts and the source code are
+    provided; see the notice that comes with SpiritFone.
+
+  - Voxengo SPAN: included with Voxengo's written permission, which applies
+    only while SpiritFone remains free of charge. Voxengo keeps all rights to
+    SPAN.
+
+  - DeepFilterNet (the voice-extraction model): MIT License, copyright
+    Hendrik Schroeter. The license text is provided.
+
+  - Cockos ReaEQ and ReaFIR (ReaPlugs): not included. SpiritFone's installer
+    can download Cockos' own installer, and you accept Cockos' own terms when
+    you install it.
+
+Nothing in this license changes or limits your rights under those terms.
+
+
+5. No warranty.
+
+SpiritFone is provided "as is", without warranty of any kind. It is for
+entertainment and personal experimentation only. You use it at your own risk,
+and the author is not responsible for any loss or damage from using it.
+
+
+6. Names.
+
+All names and trademarks belong to their owners.
