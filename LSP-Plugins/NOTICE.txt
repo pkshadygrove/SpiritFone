@@ -9,7 +9,7 @@ installed in the same folder as SpiritFone.exe. This is LSP Plugins version
 list of plug-ins to build was shortened (see plugins.mk.SpiritFone-build).
 
 LSP Plugins and the use of it in SpiritFone are covered by the GNU Lesser
-General Public License version 3 (LGPLv3). Copies of that licence and of the
+General Public License version 3 (LGPLv3). Copies of that license and of the
 GNU General Public License version 3 that it refers to are in this folder:
 
   COPYING.LESSER.txt   GNU Lesser General Public License, version 3
