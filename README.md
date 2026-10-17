@@ -6,10 +6,6 @@ SpiritFone is a free Windows program for ITC / EVP research. It is free of charg
 
 This project has been a long and arduous process, but it has finally come to fruition. Now everyone can listen to Spirit in real time - no radio, no pre-recorded audio, no estes method, none of that is required with SpiritFone. Just install it and listen to them speak. Even converse with them (but PLEASE be respectful). Then tweak the settings as you wish. Create your own presets, share them with others. If you mess it up, then just re-apply the SpiritFoneDefault preset. 
 
-Download it here:
-
-https://github.com/pkshadygrove/SpiritFone
-
 Enjoy!
 
 ## What is in this repository
