@@ -1,5 +1,6 @@
 <meta name="google-site-verification" content="3HPDtMI73F1tJyKEcYuZ7XvlSHXlv5PAEOoiNvneXfQ" />
-# SpiritFone
+
+## SpiritFone
 
 SpiritFone is a free Windows program for ITC / EVP research. It is free of
 charge and will remain so.
