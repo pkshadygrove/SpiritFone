@@ -65,8 +65,8 @@ terms. https://www.reaper.fm/reaplugs/
 ## Where to get SpiritFone
 
 Go to the **Releases** page of this repository and download
-`SpiritFone-Setup-1.0.1.exe`. Run it and follow the installer.
-https://github.com/pkshadygrove/SpiritFone/releases/tag/v1.0.1
+`SpiritFone-Setup-1.0.2.exe`. Run it and follow the installer.
+https://github.com/pkshadygrove/SpiritFone/releases/tag/v1.0.2
 
 ## Credits
 
