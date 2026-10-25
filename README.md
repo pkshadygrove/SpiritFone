@@ -6,6 +6,9 @@ This project has been a long and arduous process, but it has finally come to fru
 
 Enjoy!
 
+<img width="1919" height="1151" alt="Screenshot 2026-10-24 224042" src="https://github.com/user-attachments/assets/ab11b6d7-b79b-4a7c-af86-06f42812d1d8" />
+
+
 ## What is in this repository
 
 | Item | Where |
