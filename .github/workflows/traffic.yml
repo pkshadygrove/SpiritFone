@@ -16,7 +16,7 @@ jobs:
         env:
           TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
 
-      # Compresses the traffic CSVs into a private ZIP
+      # Compresses the traffic CSVs into a private ZIPp
       - name: Create Zip Archive
         run: zip -r private-traffic-data.zip traffic/
 
