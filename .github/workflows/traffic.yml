@@ -20,23 +20,22 @@ jobs:
       - name: Create Zip Archive
         run: zip -r private-traffic-data.zip traffic/
 
-      # Delivers the file using your Brevo Account
+      # Delivers the file using your Brevo Account via Port 587
       - name: Email Traffic Data
         uses: dawidd6/action-send-mail@v4
         with:
           server_address: ://brevo.com
-          server_port: 587 # Changed from 465
-          secure: false # Required for port 587 STARTTLS upgrades
-          username: YOUR_BREVO_SMTP_LOGIN_EMAIL
+          server_port: 587
+          secure: false
+          username: c01b11001@smtp-brevo.com
           password: ${{ secrets.BREVO_SMTP_KEY }}
-      
           subject: "Weekly GitHub Repository Traffic Export"
-          to: pkshadygrove@gmail.com
+          to: webmaster@spirititc.org
           from: webmaster@spirititc.org
           body: "Hello! Attached is your weekly private repository traffic data export."
           attachments: private-traffic-data.zip
 
-      # Also preserves the file securely in GitHub Artifacts
+      # Preserves the file securely inside GitHub Artifacts for 90 days
       - name: Upload Traffic Data Privately
         uses: actions/upload-artifact@v4
         with:
