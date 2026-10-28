@@ -24,7 +24,51 @@ jobs:
       - name: Email Traffic Data
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: ://brevo.com
+          server_address: name: Private Export Traffic Data
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  export_traffic_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch Repository Traffic
+        uses: sangonzal/repository-traffic-action@v.0.1.6
+        env:
+          TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
+
+      # Compresses the traffic CSVs into a private ZIP
+      - name: Create Zip Archive
+        run: zip -r private-traffic-data.zip traffic/
+
+      # Delivers the file using your Brevo Account via Port 587 with explicit TLS
+      - name: Email Traffic Data
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp-relay.brevo.com
+          server_port: 587
+          secure: false
+          require_tls: true
+          username: c01b11001@smtp-brevo.com
+          password: ${{ secrets.BREVO_SMTP_KEY }}
+          subject: "Weekly GitHub Repository Traffic Export"
+          to: webmaster@spirititc.org
+          from: pkshadygrove@gmail.com
+          body: "Hello! Attached is your weekly private repository traffic data export."
+          attachments: private-traffic-data.zip
+
+      # Preserves the file securely inside GitHub Artifacts for 90 days
+      - name: Upload Traffic Data Privately
+        uses: actions/upload-artifact@v4
+        with:
+          name: private-repository-traffic
+          path: traffic/
+          retention-days: 90
           server_port: 587
           secure: false
           require_tls: true
