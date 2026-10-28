@@ -1,4 +1,4 @@
-name: Export Traffic Data
+name: Private Export Traffic Data
 on:
   schedule:
     - cron: '0 0 * * 0' # Runs every Sunday at midnight
@@ -16,10 +16,10 @@ jobs:
         env:
           TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
 
-      - name: Commit and Push Data
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add traffic/
-          git commit -m "Automated update of repository traffic metrics" || exit 0
-          git push
+      # This step securely uploads the folder to GitHub's private storage
+      - name: Upload Traffic Data Privately
+        uses: actions/upload-artifact@v4
+        with:
+          name: private-repository-traffic
+          path: traffic/
+          retention-days: 90 # Securely kept for 90 days before expiring
