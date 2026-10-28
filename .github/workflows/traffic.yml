@@ -24,10 +24,12 @@ jobs:
       - name: Email Traffic Data
         uses: dawidd6/action-send-mail@v4
         with:
-          server_address: smtp-relay.brevo.com
-          server_port: 465
-          username: c01b11001@smtp-brevo.com
+          server_address: ://brevo.com
+          server_port: 587 # Changed from 465
+          secure: false # Required for port 587 STARTTLS upgrades
+          username: YOUR_BREVO_SMTP_LOGIN_EMAIL
           password: ${{ secrets.BREVO_SMTP_KEY }}
+      
           subject: "Weekly GitHub Repository Traffic Export"
           to: pkshadygrove@gmail.com
           from: webmaster@spirititc.org
