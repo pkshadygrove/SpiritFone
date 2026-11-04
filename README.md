@@ -6,7 +6,9 @@ This project has been a long and arduous process, but it has finally come to fru
 
 Enjoy!
 
-<img width="1919" height="1151" alt="Screenshot 2026-10-24 224042" src="https://github.com/user-attachments/assets/ab11b6d7-b79b-4a7c-af86-06f42812d1d8" />
+<img width="1910" height="1150" alt="Screenshot 2026-11-04 105747" src="https://github.com/user-attachments/assets/fe86492b-3715-47dc-a233-f2e01b7580b8" />
+
+<img width="1288" height="734" alt="Spectrogram_2026-11-04_10-28-33" src="https://github.com/user-attachments/assets/34b32bd0-2e72-4974-823e-97a79ba14c4f" />
 
 
 ## What is in this repository
