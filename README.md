@@ -1,10 +1,12 @@
 <meta name="google-site-verification" content="1XRTM7wCfx4QrlSGQ3EKB2bu7k3_25TyJtZ-U3B2Lw0" />
 
-SpiritFone is a free Windows program for ITC / EVP research. It is free of charge and will remain so.
+SpiritFone is a free WINDOWS program (NOT FOR ANDROID) for ITC / EVP research. It is free of charge and will remain so. 
 
 This project has been a long and arduous process, but it has finally come to fruition. Now everyone can listen to Spirit in real time - no radio, no pre-recorded audio, no estes method, none of that is required with SpiritFone. Just install it and listen to them speak. Even converse with them (but PLEASE be respectful). Then tweak the settings as you wish. Create your own presets, share them with others. If you mess it up, then just re-apply the SpiritFoneDefault preset. 
 
 Enjoy!
+
+THIS PROGRAM IS FOR WINDOWS ONLY. IT IS NOT FOR ANDROID.
 
 <img width="1910" height="1150" alt="Screenshot 2026-11-04 105747" src="https://github.com/user-attachments/assets/fe86492b-3715-47dc-a233-f2e01b7580b8" />
 
@@ -15,13 +17,13 @@ Enjoy!
 
 | Item | Where |
 |---|---|
-| The SpiritFone Windows installer | the **Releases** page (right-hand side of this page) |
+| The SpiritFone WINDOWS installer | the **Releases** page (right-hand side of this page) |
 | Complete source code of the LSP Plugins version used by SpiritFone | `LSP-Plugins/lsp-plugins-src-1.2.35.tar.gz` |
 | The one build file that differs from that source | `LSP-Plugins/plugins.mk.SpiritFone-build` |
 | SpiritFone's own license | `SpiritFone License.txt` |
 | License texts and notice | `LSP-Plugins/COPYING.LESSER.txt`, `LSP-Plugins/COPYING.txt`, `LSP-Plugins/NOTICE.txt`, `DeepFilterNet/LICENSE-MIT.txt` |
 
-The source code of SpiritFone itself is not in this repository.
+The source code of SpiritFone itself is not in this repository. 
 
 ## SpiritFone license
 
